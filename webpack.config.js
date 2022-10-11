@@ -37,14 +37,9 @@ module.exports = {
                     ["@babel/preset-react", {
                       "runtime": "automatic" 
                     }],
-                    "module:@linaria/babel"
                 ]
             }
          },
-          {
-            loader: '@linaria/webpack-loader',
-            options: { sourceMap: dev },
-          },
         ],
       },
       {
